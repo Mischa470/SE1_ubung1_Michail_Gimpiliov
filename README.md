@@ -9,7 +9,6 @@ Für die hier gegebene Problematik könnte man das Factory Pattern verwenden. An
 Antwort auf Frage 3: 
 Man muss das Interface auf public stellen, da der Translator sonst nicht von dem package „view“ benutzt werden kann, da der Modifier public erst die package-privatheit aufhebt.  
 
-
 2) 
 Antwort auf Frage 1:
 Eine separate Testklasse ermöglicht eine klare Trennung zwischen Produktionscode und Testlogik, was die Wartbarkeit verbessert und Kollisionen vermeidet.
